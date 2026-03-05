@@ -1,0 +1,31 @@
+{
+  "name": "Harmonicon",
+  "version": "1.1.9",
+  "description": "TTRPG ambience & SFX mixer",
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  },
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.4.0"
+  },
+  "build": {
+    "productName": "Harmonicon",
+    "appId": "com.ultimanobis.harmonicon",
+    "icon": "build/icon.png",
+    "linux": {
+      "target": ["AppImage"],
+      "category": "AudioVideo",
+      "icon": "build/icons"
+    },
+    "extraResources": [
+      {
+        "from": "public/fonts",
+        "to": "fonts"
+      }
+    ]
+  }
+}
