@@ -1,0 +1,18 @@
+/* ------------- Tailwind base ------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------- Custom assets ------------- */
+
+/* Local font */
+@font-face {
+  font-family: 'DragonHunter';
+  src: url('../public/fonts/DragonHunter.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Background images (kept after purge) */
+.bg-parchment   { background-image: url('./parchment-texture.png'); }
+.bg-wood-banner { background-image: url('./header-wood.png'); }
