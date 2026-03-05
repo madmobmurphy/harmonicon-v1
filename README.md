@@ -1,4 +1,4 @@
-This is Harmonicon Verion 1 
+This is Harmonicon Version 1 
 A TTRPG soundboard for all to use. 
 
 Place your music files (folders will be detected for better overview) in the path /public/audio
